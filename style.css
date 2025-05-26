@@ -1,4 +1,28 @@
 .completed {
     text-decoration: line-through;
     color: gray;
-}  
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 8px 12px;
+}
+
+li {
+    margin-top: 10px;
+    cursor: pointer;
+}
