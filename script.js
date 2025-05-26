@@ -9,3 +9,7 @@ function addTask() {
     document.getElementById('taskList').appendChild(li);
     input.value = '';
 }
+
+li.onclick = function () {
+    li.classList.toggle('completed');
+};  
