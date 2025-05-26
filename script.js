@@ -16,4 +16,8 @@ li.onclick = function () {
 
 li.ondblclick = function () {
     li.remove();
-};  
+};
+
+// TODO: Implementar guardado de tareas usando localStorage
+// localStorage.setItem('tasks', JSON.stringify(tareas));
+
